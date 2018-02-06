@@ -25,7 +25,8 @@ Client will try to send an HTTP POST by using PHP stream context with file_get_c
 
 Via composer
 ```
-composer require rkioski/checkout-finland-api-client dev-master
+composer config repositories.devgeniem/checkout-finland-api-client git git@github.com:devgeniem/checkout-finland-api-client.git
+composer require devgeniem/checkout-finland-api-client dev-master
 ```
 
 # Usage
